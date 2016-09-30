@@ -8,14 +8,12 @@ public class CheckPermutation {
     public static void main(String[] args) {
         String stringOne = "jaba";
         String stringTwo = "bjaa";
-
         System.out.println(checkPermutationHashMap(stringOne, stringTwo));
     }
 
     private static boolean checkPermutation(String stringOne, String stringTwo) {
         int[] arrayOne = new int[128];
         int[] arrayTwo = new int[128];
-
         for (char c : stringOne.toCharArray()) {
             arrayOne[c] += 1;
         }
