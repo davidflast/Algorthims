@@ -2,7 +2,7 @@ package crackingthecodinginterview;
 
 import java.util.Map;
 import java.util.HashMap;
-// Given a string, check if it is a permutation of a palindrom
+// Given a string, check if it is a permutation of a palindrome
 
 public class PalindromePermutation {
 
